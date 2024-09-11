@@ -1,0 +1,24 @@
+server:
+  address: 0.0.0.0
+  servlet:
+    context-path: /
+  port: 8090
+  error:
+    include-exception: true
+    include-stacktrace: always
+
+spring:
+  datasource:
+    url: ${DS_URL:jdbc:postgresql://109.196.164.224:5432/quixor}
+    username: ${DS_USERNAME:quixor}
+    password: ${DS_PASSWORD:quixor}
+  jpa:
+    generate-ddl: false
+    show-sql: true
+  main:
+    allow-circular-references: true
+
+jwt:
+  secret: 984hg493gh0439rthr0429uruj2309yh937gc763fe87t3f89723gf
+  lifetime: 360m
+
