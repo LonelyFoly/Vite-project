@@ -1,0 +1,43 @@
+.header {
+    background-color: #FFFFFF;
+    height: 50px;
+    color: #7b68ee;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    border-bottom: 1px solid #49425E;
+}
+
+/* Стиль для обертки с названием "Quixor" */
+.logo {
+    font-size: 1.5em; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+    margin-right: 30px;
+}
+
+.nav {
+    display: flex;
+    height: 50px;
+    background-color: #FFFFFF; /* Цвет фона навигации, подобный Jira */
+    justify-content: space-around; /* Распределение элементов равномерно по горизонтали */
+    align-items: center; /* Выравнивание элементов по вертикали по центру */
+}
+
+.nav a {
+    text-decoration: none;
+    color: #49425E; /* Цвет текста ссылок */
+    padding: 11px;
+    border-bottom: 5px solid transparent; /* Начальное состояние - невидимая граница */
+    transition: border-bottom 0.3s ease;
+}
+
+.nav a:hover,
+.nav a.active
+{
+    border-bottom: 5px solid #7b68ee; /* Граница при наведении или активном состоянии */
+}
+
+.nav a:active {
+    border-bottom: 5px solid #7b68ee; /* Граница при наведении или активном состоянии */
+}
+

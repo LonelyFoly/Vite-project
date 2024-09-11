@@ -1,0 +1,74 @@
+/* Стили для Card */
+.card {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    color: #49425E;
+}
+
+/* Стили для формы внутри Card */
+.card form {
+    display: grid;
+    gap: 16px;
+}
+
+/* Общие стили для label и input/textarea/select */
+.card label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.card input,
+.card textarea,
+.card select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+/* Стили для кнопки внутри Card */
+.card .submitButton {
+    background-color: #fff;
+    color: #7b68ee;
+    padding: 10px 20px;
+    border: 1px solid #7b68ee;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card .submitButton:hover {
+    background-color: #7b68ee;
+    color: #FFFFFF;
+}
+
+.card .submitButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    background-color: #FFFFFF;
+    color: #7b68ee;
+    padding: 2px 8px;
+    border: 1px solid #7b68ee;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+
+.closeButton:hover {
+    background-color: #7b68ee;
+    color: #FFFFFF;
+}

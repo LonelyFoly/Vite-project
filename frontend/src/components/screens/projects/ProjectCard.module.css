@@ -1,0 +1,21 @@
+/* Стили для карточки */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #49425E;
+}
+
+/* Стили для заголовка проекта */
+.card h2 {
+    font-size: 1.5em;
+    margin: 0 5px 10px 0;
+    display: inline-block;
+}
+
+/* Стили для остальных элементов внутри карточки */
+.card p {
+    margin: 5px 0;
+}
